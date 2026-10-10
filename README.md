@@ -62,13 +62,14 @@ Hubungkan salah satu kaki tombol ke **GND**, dan kaki lainnya ke pin GPIO beriku
 | **SELECT** | **GPIO 6** |
 | **START** | **GPIO 8** |
 
-### 4. Modul Audio (Suara)
-Sinyal audio dikirimkan menggunakan modulasi PWM. Anda bisa menyambungkannya ke modul amplifier kecil (seperti PAM8403) atau langsung ke *buzzer* piezoaktif.
+### 4. Modul Audio & Multiplayer (Jack 3.5mm)
+Ekosistem konsol ini mendukung keluaran suara dan komunikasi *multiplayer* (Kabel Link antar konsol pada mode MakeCode Arcade) yang biasanya disatukan dalam satu colokan Jack Audio.
 
-| Modul Audio | Pin RP2040 | Keterangan |
+| Fungsi | Pin RP2040 | Keterangan |
 | :--- | :--- | :--- |
-| **Audio In / +** | **GPIO 7** | Sinyal Output Audio (PWM) |
-| **GND / -** | **GND** | Ground |
+| **Audio (SND)** | **GPIO 7** | Sinyal Output Suara (PWM) untuk InfoNES & MakeCode |
+| **Multiplayer (TX)** | **GPIO 9** | Sinyal Transmisi Data (Hanya aktif di MakeCode Arcade) |
+| **GND** | **GND** | Ground |
 
 ---
 
