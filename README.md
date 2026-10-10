@@ -87,17 +87,17 @@ Sinyal audio dikirimkan menggunakan modulasi PWM. Anda bisa menyambungkannya ke 
 8. Pindahkan (Drag & Drop) file infoNES.uf2 ke RP2040 dalam mode BOOTSEL.
 
 ## 📂 Pengaturan SD Card & Multi-Boot
-* **Format MicroSD Card Anda menggunakan sistem file FAT32.
-* **Letakkan file ROM NES Anda (berakhiran .nes) langsung di root (direktori utama) SD Card atau di dalam folder (File game tidak disertakan dalam repositori ini).
-* **Menu BIOS kustom berbahasa Indonesia akan otomatis mencari dan menampilkan game NES Anda.
-* **Mode Multi-Boot: Gunakan ekosistem bootloader pihak ketiga (seperti MakeCode Arcade Bootloader) untuk memuat file .uf2 ini langsung dari menu SD Card saat Anda ingin beralih dari mode coding ke mode Retro.
+* Format MicroSD Card Anda menggunakan sistem file FAT32.
+* Letakkan file ROM NES Anda (berakhiran .nes) langsung di root (direktori utama) SD Card atau di dalam folder (File game tidak disertakan dalam repositori ini).
+* Menu BIOS kustom berbahasa Indonesia akan otomatis mencari dan menampilkan game NES Anda.
+* Mode Multi-Boot: Gunakan ekosistem bootloader pihak ketiga (seperti MakeCode Arcade Bootloader) untuk memuat file .uf2 ini langsung dari menu SD Card saat Anda ingin beralih dari mode coding ke mode Retro.
 
 🙏 Kredit & Sumber Asli
 Proyek ini adalah hasil modifikasi dan perakitan ulang (re-design) antarmuka, lokalisasi, dan perangkat keras. Sistem inti (core) berbasis pada karya open-source dari:
-* **@pondahai (PCB Design & InfoNES RP2040 implementation)
-* **@shuichi_takano (Pico Port)
-* **@frenskefrens (Menu System & SD Card Module)
+* @pondahai (PCB Design & InfoNES RP2040 implementation)
+* @shuichi_takano (Pico Port)
+* @frenskefrens (Menu System & SD Card Module)
 
 Apresiasi Khusus Ekosistem Multi-Boot:
-* **Aqee (AqeeAqee) atas dedikasi dan kontribusinya dalam mengembangkan Board MakeCode Arcade arsitektur RP2040.
-* **Raspberry Pi Foundation untuk rilis utilitas pembersih Flash Nuke (flash_nuke.uf2) yang sangat krusial dalam pemulihan dan penataan ulang blok memori selama masa pengembangan dan debugging konsol.
+* Aqee (AqeeAqee) atas dedikasi dan kontribusinya dalam mengembangkan Board MakeCode Arcade arsitektur RP2040 (https://github.com/AqeeAqee/Arcade-Pico).
+* Raspberry Pi Foundation untuk rilis utilitas pembersih Flash Nuke (flash_nuke.uf2) yang sangat krusial dalam pemulihan dan penataan ulang blok memori selama masa pengembangan dan debugging konsol.
