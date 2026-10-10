@@ -72,7 +72,7 @@ Sinyal audio dikirimkan menggunakan modulasi PWM. Anda bisa menyambungkannya ke 
 
 ---
 
-## 🚀 Cara Kompilasi infoNES [Emulatir NES] (Build)
+## 🚀 Cara Kompilasi infoNES [Emulator NES] (Build)
 
 1. Lakukan *Clone* repositori berserta modul (*submodules*):
    ```bash
