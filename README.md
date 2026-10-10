@@ -67,7 +67,7 @@ Sinyal audio dikirimkan menggunakan modulasi PWM. Anda bisa menyambungkannya ke 
 
 | Modul Audio | Pin RP2040 | Keterangan |
 | :--- | :--- | :--- |
-| **Audio In / +** | **GPIO 9** | Sinyal Output Audio (PWM) |
+| **Audio In / +** | **GPIO 7** | Sinyal Output Audio (PWM) |
 | **GND / -** | **GND** | Ground |
 
 ---
