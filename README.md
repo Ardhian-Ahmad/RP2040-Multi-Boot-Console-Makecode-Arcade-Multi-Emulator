@@ -1,4 +1,4 @@
-# YD-RP2040 Multi-Boot Console: MakeCode Arcade & Multi Emulator
+# Rapsberry Pi Pico RP2040 Multi-Boot Console: MakeCode Arcade & Multi Emulator
 
 Repositori ini merupakan bagian dari proyek pembangunan ekosistem konsol *handheld* edukasi DIY berbasis mikrokontroler Raspberry Pi Pico / RP2040. 
 
